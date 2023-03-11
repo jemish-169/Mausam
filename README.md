@@ -1,6 +1,6 @@
 # Weather App
 
-This is a simple weather app that displays the current weather conditions and forecast for the next three days. The app uses the WeatherAPI API to get the weather data, and it is implemented using Retrofit.
+This is a simple weather app that displays the current weather conditions and forecast for the next three days. The app uses the WeatherAPI API to gather Aastronomy, Weather and Forecast information.
 
 ## App Features :
 - **Weather & Forecast** - Displays the current weather conditions and forecast for the next three days
