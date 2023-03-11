@@ -1,4 +1,4 @@
-# Weather App : Get information of daily and hourly Weather, Forecast and Astronomy of city
+# MAusam : Weather app to Get information of daily and hourly Weather, Forecast and Astronomy of city
 
 ## App Features :
 - **Weather & Forecast** - Displays the current weather conditions and forecast for the next three days
