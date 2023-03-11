@@ -6,8 +6,8 @@
 - **Weather of any searched city or Air-port** - Allows users to search for any city or airport and get weather details
 - **User interface** - Has an elegant and user-friendly UI
 
-## 📸 Screenshots
 
+## 📸 Screenshots
 
 | First screen | Search a city or Air-port | Weather details of city |
 |--|--|--|
