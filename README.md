@@ -20,6 +20,7 @@
 
 
 ## Built With 🛠
+
 - [Kotlin](https://kotlinlang.org/) - First class and official programming language for Android development.
 - [Android Architecture Components](https://developer.android.com/topic/libraries/architecture) - Collection of libraries that help you design robust, testable, and maintainable apps.
 - [GSON](https://github.com/google/gson) - A modern JSON library for Kotlin and Java.
