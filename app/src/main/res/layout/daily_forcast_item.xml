@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginHorizontal="4dp"
+    android:layout_marginVertical="8dp"
+    android:elevation="3dp"
+    app:cardBackgroundColor="@android:color/transparent"
+    app:cardCornerRadius="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_glass_effect"
+        android:orientation="vertical">
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/daily_forecast_item_date"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:fontFamily="@font/nunitosans_semibold"-->
+        <!--            android:gravity="center"-->
+        <!--            android:padding="3dp"-->
+        <!--            android:text="12/02/23"-->
+        <!--            android:textAlignment="center"-->
+        <!--            android:textColor="@color/black"-->
+        <!--            android:textSize="10dp" />-->
+
+        <TextView
+            android:id="@+id/daily_forecast_item_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunitosans_semibold"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="4:00 AM"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/daily_forecast_item_temp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunitosans_semibold"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="27"
+            android:textAlignment="center"
+            android:textColor="@color/Dark_MainAppColor"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:id="@+id/daily_forecast_item_img"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_sunny" />
+
+        <TextView
+            android:id="@+id/daily_forecast_item_condition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunitosans_bold"
+            android:gravity="center"
+            android:maxLines="1"
+            android:padding="3dp"
+            android:text="Cloudy"
+            android:textAlignment="center"
+            android:textColor="@color/semiblack"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
