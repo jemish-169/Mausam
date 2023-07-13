@@ -114,7 +114,7 @@ class MainActivity : AppCompatActivity() {
         )
     )
 
-    @SuppressLint("MissingInflatedId")
+    @SuppressLint("MissingInflatedId", "CutPasteId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -134,7 +134,7 @@ class MainActivity : AppCompatActivity() {
         linearLayoutManager = LinearLayoutManager(this)
         recyclerView.layoutManager = linearLayoutManager
 
-        //Manage Search Box, after 3rd AAlphabet iy will start searching
+        //Manage Search Box, after 3rd Alphabet it will start searching
         var searchText: AppCompatEditText? = null
         searchText = findViewById(R.id.edtSearch)
 
