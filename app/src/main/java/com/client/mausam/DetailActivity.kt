@@ -30,6 +30,7 @@ class DetailActivity : AppCompatActivity() {
         val alerts = "no"
 
         super.onCreate(savedInstanceState)
+        setTheme(R.style.Theme_Mausam)
         setContentView(R.layout.activity_detail)
 
         //get name from intent

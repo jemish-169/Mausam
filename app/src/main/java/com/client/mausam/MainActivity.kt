@@ -2,12 +2,11 @@ package com.client.mausam
 
 import android.annotation.SuppressLint
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
-import retrofit2.Callback
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.AppCompatEditText
 import androidx.core.content.res.ResourcesCompat
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -17,7 +16,9 @@ import com.client.mausam.Adapter.SearchCityAdapter
 import com.client.mausam.Models.SearchListItem
 import com.google.android.material.appbar.CollapsingToolbarLayout
 import retrofit2.Call
+import retrofit2.Callback
 import retrofit2.Response
+
 
 const val EXTRA_CITY_NAME = "EXTRA_CITY_NAME"
 
@@ -117,6 +118,7 @@ class MainActivity : AppCompatActivity() {
     @SuppressLint("MissingInflatedId", "CutPasteId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setTheme(R.style.Theme_Mausam)
         setContentView(R.layout.activity_main)
 
         //adding typeface for giving font-family to collapsible toolbar
@@ -242,4 +244,5 @@ class MainActivity : AppCompatActivity() {
                 }
             })
     }
+
 }
