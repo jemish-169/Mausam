@@ -9,7 +9,7 @@
 
 ## Live Demo 🚀
 
-Experience the Mausam in action on Google Play: [https://play.google.com/store/apps/details?id=com.practice.ChatAI](https://play.google.com/store/apps/details?id=com.practice.ChatAI)
+Experience the Mausam in action on Google Play: [https://play.google.com/store/apps/details?id=com.client.mausam](https://play.google.com/store/apps/details?id=com.client.mausam)
 
 ## 📸 Screenshots
 
