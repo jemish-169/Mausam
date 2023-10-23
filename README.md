@@ -7,6 +7,10 @@
 - **User interface** - Has an elegant and user-friendly UI
 
 
+## Live Demo 🚀
+
+Experience the Mausam in action: [Live Demo](https://play.google.com/store/apps/details?id=com.practice.ChatAI) 🌐
+
 ## 📸 Screenshots
 
 | First screen | Search a city or Air-port | Weather details of city |
