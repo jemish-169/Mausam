@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/how_to_use"
+        android:iconTint="@color/black"
+        app:showAsAction="never"
+        android:title="@string/how_to_use_bard_ai" />
+    <item
+        android:id="@+id/privacy_policy"
+        android:iconTint="@color/black"
+        app:showAsAction="never"
+        android:title="@string/privacy_policy" />
+</menu>
