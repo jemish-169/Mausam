@@ -6,11 +6,6 @@
 - **Weather of any searched city or Air-port** - Allows users to search for any city or airport and get weather details
 - **User interface** - Has an elegant and user-friendly UI
 
-
-## Live Demo 🚀
-
-Experience the Mausam in action on Google Play: [https://play.google.com/store/apps/details?id=com.client.mausam](https://play.google.com/store/apps/details?id=com.client.mausam)
-
 ## 📸 Screenshots
 
 | First screen | Search a city or Air-port | Weather details of city |
